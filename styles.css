@@ -1,0 +1,83 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 0;
+    height: 100vh;
+    font-family: 'Lobster', "cursive";
+    background-image: url("images/time4.jpg");
+ 
+   
+   
+}
+
+
+h3 {
+  font-size: 2rem;
+}
+.form-container{
+    width: 50%;
+    height: 50%;
+    background-color: #FFD59E;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0.1rem 0.1rem 0.1rem  0.1rem rgba(110, 101, 101, 0.55);
+
+    
+}
+.submit{
+ display: flex;
+ margin: 1.5rem auto;
+ justify-content: center;
+ cursor: pointer;
+ font-size: 1.2rem;
+ height: 2.5rem;
+ border: none;
+ border-radius: 10px;
+ color: #ffffff;
+ background-color: #FF6363;
+ outline: none;
+ padding: 0.5rem 1.8rem;
+ box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+}
+
+
+.submit:hover{
+    filter: brightness(110%);
+  
+  }
+  
+.submit:active{
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+  }
+
+input{
+  border-radius: 15px;
+  border: 1px solid grey;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight:bold;
+  
+}
+
+.result-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family:Georgia, 'Times New Roman', Times, serif;
+letter-spacing: normal;
+
+}
